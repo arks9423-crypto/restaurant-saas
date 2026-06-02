@@ -40,4 +40,9 @@ export default defineConfig({
   resolve: {
     alias: { '@': path.resolve(__dirname, './src') },
   },
+  preview: {
+    host: '0.0.0.0',
+    port: 4173,
+    allowedHosts: 'all',
+  },
 })
